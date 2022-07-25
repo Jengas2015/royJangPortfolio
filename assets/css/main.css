@@ -2632,11 +2632,19 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.skills {
+				display: flex;
+				align-items: center;
+			}
+
 		.image.main {
-			display: block;
+			align-items: left;
 			margin-left: auto;
             margin-right: auto;
 			width: 20%;
+			max-width: 200px;
+			height: 100%;
+
 		}
 
 			.image.main:first-child {
@@ -2649,13 +2657,13 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+
+
 			.image.fit {
 				margin: 2rem 0;
 			}
 
-			.image.main {
-				margin: 2rem 0;
-			}
+
 
 		}
 
@@ -2922,6 +2930,7 @@ input, select, textarea {
 
 		header > p {
 			font-style: italic;
+			text-align: center;
 		}
 
 		header > h1 + p {
