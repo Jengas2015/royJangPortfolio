@@ -2647,6 +2647,10 @@ input, select, textarea {
 
 		}
 
+		.image--preview{
+			max-height: 300px;
+		}
+
 			.image.main:first-child {
 				margin-top: 0;
 			}
