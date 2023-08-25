@@ -2634,29 +2634,44 @@ input, select, textarea {
 
 			.skills {
 				display: flex;
+				flex-wrap: wrap;
 				align-items: center;
+				justify-content: center;
+			}
+
+			@media (max-width: 735px) {
+				.skills {
+					flex-direction: column;
+					max-height: 900px;
+				}
 			}
 
 		.image.main {
-			align-items: left;
+			flex: 1 0 200px;
+			max-width: 100%;
+			margin: 10px;
 			margin-left: auto;
             margin-right: auto;
 			width: 20%;
 			max-width: 200px;
 			height: 100%;
+			position: relative;
 
 		}
 
 		.tooltiptext {
-			visibility: hidden;
+			display: none;
 			background-color: black;
 			color: white;
-			padding: 7px;
-			border-radius: 5px;
+			width: 45%;
+			justify-content: center;
+			align-items: center;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		.image.main:hover .tooltiptext{
-			visibility: visible;
+			display: block;
 		}
 
 
@@ -2674,13 +2689,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-
-
 			.image.fit {
 				margin: 2rem 0;
 			}
-
-
 
 		}
 
