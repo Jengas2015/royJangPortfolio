@@ -4104,7 +4104,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 /* Footer */
 
 #footer {
-  color: #717981;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -4126,7 +4125,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #footer a {
-  color: #717981;
+  color: #212931;
   border-bottom-color: rgba(113, 121, 129, 0.5);
 }
 
@@ -4137,7 +4136,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #footer strong,
 #footer b {
-  color: #717981;
+  color: #212931;
 }
 
 #footer h1,
@@ -4146,7 +4145,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 #footer h4,
 #footer h5,
 #footer h6 {
-  color: #717981;
+  color: #212931;
 }
 
 #footer blockquote {
